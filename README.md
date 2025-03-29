@@ -1,55 +1,28 @@
-# Sistemas Bancários
+# Sistema Bancário
 
-Este README apresenta um overview do projeto Smart Salas Bancárias, uma aplicação de gestão financeira para empresas, que visa facilitar a comunicação entre clientes e vendedores, uma vez que oferece serviços diversos, como venda de produtos e soluções, suporte técnico e consultoria, além de permitir uma experiência de interação completa com a empresa em questão.
+Este projeto consiste em um sistema bancário que permite realizar operações como saques, transferências, consultas de saldo, entre outras funcionalidades.
 
 ## Funcionalidades
-
-- Cadastro de clientes
-- Controle de vendas
-- Gestão de estoque
-- Relatórios de desempenho
-- Suporte técnico
-- Consultoria financeira
-- Integração com APIs de terceiros
-
-## Fundamentações
-
-### Cadastro de Clientes
-
-Os clientes podem se cadastrar na plataforma, fornecendo informações básicas como nome, e-mail e telefone, além de dados específicos sobre o tipo de serviço que desejam contratar.
-
-### Controle de Vendas
-
-A aplicação permite o registro e acompanhamento de vendas realizadas, auxiliando no controle de estoque e na geração de relatórios para análise do desempenho da empresa.
-
-### Suporte Técnico e Consultoria
-
-Os clientes têm acesso a um suporte técnico especializado, bem como a consultoria financeira personalizada, com o intuito de auxiliá-los na tomada de decisões estratégicas.
-
-## Funcionalidades Extras
-
-- Interação com o sistema de pagamentos online
-- Alertas e notificações personalizadas
-- Dashboard com indicadores de desempenho em tempo real
+- Realizar operações de saque, transferência e consulta de saldo
+- Gerenciar clientes e suas contas bancárias
+- Visualizar extratos de transações
+- Autenticação de usuários
 
 ## Tecnologias Utilizadas
-
 - Node.js
 - Express
 - MongoDB
 - Mongoose
-- JWT (JSON Web Tokens) para autenticação
+- JWT (JSON Web Token) para autenticação
 
-## Como Contribuir
+## Como Executar
+1. Clone o repositório
+2. Instale as dependências com `npm install`
+3. Configure as variáveis de ambiente no arquivo `.env`
+4. Execute o servidor com `npm start`
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Faça commit de suas mudanças (`git commit -m 'Adicionando nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
----
+## Contribuição
+Sinta-se à vontade para contribuir com melhorias, novas funcionalidades ou correções de bugs. Basta fazer um fork do projeto e enviar um pull request.
 
 ## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
