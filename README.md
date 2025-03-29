@@ -1,7 +1,15 @@
-O erro "409 Conflict: SHA does not match" ocorre quando a verificação SHA (hash) do arquivo que está sendo atualizado não corresponde ao SHA esperado pelo GitHub. Isso geralmente acontece quando o arquivo foi modificado por outra pessoa ou de outra forma desde que você obteve o SHA original.
+# Smart Sales Backend
+O "Smart Sales Backend" é uma aplicação web de gerenciamento de vendas para empresas, focada em facilitar o controle de vendas e integração de sistemas.
 
-Para corrigir esse erro, você precisará obter o SHA mais recente do arquivo antes de tentar atualizá-lo. Você pode fazer isso fazendo uma requisição GET para obter os detalhes do arquivo e pegando o valor do campo "sha" retornado na resposta. Certifique-se de usar esse SHA atualizado ao enviar a requisição PUT para atualizar o arquivo.
+## Funcionalidades Principais
+- Cadastro de produtos
+- Cadastro de clientes
+- Realização de vendas
+- Integração com sistemas de terceiros
 
-Para evitar esse erro no futuro, uma prática recomendada é sempre obter o SHA mais recente do arquivo antes de tentar atualizá-lo. Você também pode considerar implementar um sistema de controle de versão mais robusto para gerenciar as alterações nos arquivos, como usar branches separados para diferentes funcionalidades e realizar merge apenas quando estiver seguro de que não haverá conflitos de SHA.
-
-Além disso, certifique-se de que a autenticação está correta ao fazer as requisições para a API do GitHub, pois problemas de autenticação também podem levar a erros como este.
+## Tecnologias Utilizadas
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- JWT para autenticação
